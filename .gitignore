@@ -1,0 +1,29 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# API keys and environment variables
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local databases and private datasets
+/data/*.db
+/data/*.sqlite
+/data/*.sqlite3
+/data/private/
+/datasets/private/
+
+# X archive and imported personal data
+*.zip
+/data/tweets*
+/data/archive/
+/data/personality_profile.json
+
+# Operating system files
+.DS_Store
